@@ -37,7 +37,7 @@ const newFlowerTwo = {
     species: "daisy",
     price: 0.65
 }
-
+console.log(flowers.length)
 ///////////////////////////////////////////////////////
 // Step 2
 
@@ -71,6 +71,8 @@ const addFlower = (flowerObject) => {
 
 ///////////////////////////////////////////////////////////////////////////
 //Step 3
+// why wont the function read the flower object outside of the array?
+/////////////////////////////////////////////////////////////////////////////////
    /*
         Write a for..of loop that iterate the array
         of flowers, and if the price of a flower is
@@ -91,15 +93,7 @@ const findExpensiveFlowers = () => {
     return expensiveFlowers  // Do not change this code
 }
 
-console.log(findExpensiveFlowers())
-
-
-// for (flower of flowers)  {
-//     if (flower.id === findExpensiveFlowers) {
-//         flower.price => 1.00
-//         console.log(`People love the ${flower.species} bouquets. Each flower cost ${flower.price}`)
-//     }
-// }
+// console.log(findExpensiveFlowers())
 
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -108,12 +102,18 @@ module.exports = {
     findExpensiveFlowers, addFlower
 }
 
-// const myCardGame = 1
 
-// for (const card of cards) {
-//     if (card.id === myCardGame) {
-//         card.playersNeeded = card.playersNeeded + 5
-//         console.log(`When playing ${card.name}, it's more fun to have at least ${card.playersNeeded} players in the game.`)
+
+
+///////////////////////////////////
+//Please ignore. This section is for testing/practice section. I am showing my work/thought process.////
+////////////////////////////////////
+// const flowerBouqet = 1
+
+// for (flower of flowers)  {
+//     if (flower.id === findExpensiveFlowers) {
+//         flower.price => 1.00
+//         console.log(`People love the ${flower.species} bouquets. Each flower cost ${flower.price}`)
 //     }
 // }
 
