@@ -16,7 +16,7 @@ const flowers = [
         id: 3,
         color: "pink",
         species: "sunflower",
-        price: 3.10
+        price: 0.10
     },
 
 
